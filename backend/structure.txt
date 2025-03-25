@@ -1,0 +1,14 @@
+/task-manager-backend
+├── /config
+│   └── db.ts            # MongoDB connection setup
+├── /controllers
+│   └── taskController.ts # Task CRUD logic
+├── /models
+│   └── Task.ts           # Task schema
+├── /routes
+│   └── taskRoutes.ts     # Task routes
+├── /utils
+│   └── errorHandler.ts   # Error handler
+├── .env                  # Environment variables
+├── package.json
+└── server.ts             # Main server file
